@@ -1,1 +1,1 @@
-usage: KDU.exe driver.sys
+usage: KDU.exe -map driver.sys

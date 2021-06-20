@@ -1,1 +1,1 @@
-usage: drvmap.exe <driver>
+usage: DrvMap.exe driver.sys

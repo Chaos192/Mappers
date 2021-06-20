@@ -1,0 +1,5 @@
+usage: 
+DSEFix.exe
+create driver
+start driver
+DSEFix.exe -e

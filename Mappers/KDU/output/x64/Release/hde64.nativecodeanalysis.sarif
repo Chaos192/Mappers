@@ -1,0 +1,79 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29915.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x64\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00F0B1C0 -il C:\\Users\\Majdev\\AppData\\Local\\Temp\\_CL_ae340442ast -typedil -f hde\\hde64.c -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829915 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -I C:\\Users\\Majdev\\Desktop\\KDU-master\\Hamakaze\\ -nologo -W 4 -diagnostics:column -Og -Oy -Oi -Os -ltcg -DCODE_ANALYSIS -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -GF -clrNoPureCRT -D_MT -D_M_FP_PRECISE -Fo.\\output\\x64\\Release\\hde64.obj -Fd.\\output\\x64\\Release\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\Majdev\\Desktop\\KDU-master\\Hamakaze -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -MPdiagMutex 00000000000001A8",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/shared/minirtl/strtou64.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b0af2ab66fb7da553d67cf087b4068d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/shared/minirtl/rtltypes.h"
+          },
+          "hashes": {
+            "md5": "55dac2a301d77058701515a9432acadf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/hde/hde64.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "ca90fb6f292ff647ca47bea0b2a5d357"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/hde/hde64.h"
+          },
+          "hashes": {
+            "md5": "2806747dd2f3cdb16455e620f15714da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/hde/pstdint.h"
+          },
+          "hashes": {
+            "md5": "0b0148c805cd455ff59606262f643351"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/hde/table64.h"
+          },
+          "hashes": {
+            "md5": "2184c13c45ffbf87bf889de41a13db11"
+          }
+        }
+      ]
+    }
+  ]
+}

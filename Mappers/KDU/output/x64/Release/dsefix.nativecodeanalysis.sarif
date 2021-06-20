@@ -1,0 +1,212 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29915.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00F0B1C0 -il C:\\Users\\Majdev\\AppData\\Local\\Temp\\_CL_310e4122ast -typedil -f dsefix.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829915 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\Users\\Majdev\\Desktop\\KDU-master\\Hamakaze\\ -nologo -W 4 -diagnostics:column -Og -Oy -Oi -Os -ltcg -DCODE_ANALYSIS -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -GF -EHs -D_CPPUNWIND -EHc -MT -clrNoPureCRT -D_MT -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -Fo.\\output\\x64\\Release\\dsefix.obj -Fd.\\output\\x64\\Release\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\Majdev\\Desktop\\KDU-master\\Hamakaze -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -MPdiagMutex 00000000000001A8",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/dsefix.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "6caa38450eb1a4f11a72ac194720eba3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/global.h"
+          },
+          "hashes": {
+            "md5": "e8afc1b254bb9a4f74d1f6135ab54bb5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/shared/ntos/ntos.h"
+          },
+          "hashes": {
+            "md5": "84519fee1fcf1d5207cc9993238f7b60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/shared/ntos/halamd64.h"
+          },
+          "hashes": {
+            "md5": "54198b54417565f4aeae62dfe5cdef5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/wdksup.h"
+          },
+          "hashes": {
+            "md5": "bf0c3f6178885dadd5b9cd7f1f39c0fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/resource.h"
+          },
+          "hashes": {
+            "md5": "4c3aede26c554d9fd1cea6cb0d466b72"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/hde/hde64.h"
+          },
+          "hashes": {
+            "md5": "2806747dd2f3cdb16455e620f15714da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/hde/pstdint.h"
+          },
+          "hashes": {
+            "md5": "0b0148c805cd455ff59606262f643351"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/shared/minirtl/minirtl.h"
+          },
+          "hashes": {
+            "md5": "8ffb389a1764098a688ebfc62ef9755f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/shared/minirtl/rtltypes.h"
+          },
+          "hashes": {
+            "md5": "55dac2a301d77058701515a9432acadf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/shared/minirtl/cmdline.h"
+          },
+          "hashes": {
+            "md5": "862578b37fdafab101d15059015192d3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/shared/minirtl/_filename.h"
+          },
+          "hashes": {
+            "md5": "336a323750974e7e5707b3a7c621397f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/consts.h"
+          },
+          "hashes": {
+            "md5": "80bcb99e3ab4adb8becf404f99dd4f8d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/sup.h"
+          },
+          "hashes": {
+            "md5": "95d0980f2d02e0392edf58f14f1c30a8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/compress.h"
+          },
+          "hashes": {
+            "md5": "0c0d50769fc95b3526350291e594ff1c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/kduprov.h"
+          },
+          "hashes": {
+            "md5": "8a88c2cca63597fd4ad56c248d31a272"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/shellcode.h"
+          },
+          "hashes": {
+            "md5": "f9d2a2d5523388518041992ba1d9317e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/drvmap.h"
+          },
+          "hashes": {
+            "md5": "d74bd2eed1a4ad0906e1c528ac52f59d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/ps.h"
+          },
+          "hashes": {
+            "md5": "7cfb28715089a3b101e868ab0faeef11"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/victim.h"
+          },
+          "hashes": {
+            "md5": "838e38ec472de9ed74ac3cd4d4fbb07d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/pagewalk.h"
+          },
+          "hashes": {
+            "md5": "1ed657cbffa251073e3caf4f59736c2a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/dsefix.h"
+          },
+          "hashes": {
+            "md5": "cd366f9e0ede206a26b3d8dd97a8924f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/majdev/desktop/kdu-master/hamakaze/tests.h"
+          },
+          "hashes": {
+            "md5": "3d68a30700ca8d1ef6ae41dc58c222e3"
+          }
+        }
+      ]
+    }
+  ]
+}

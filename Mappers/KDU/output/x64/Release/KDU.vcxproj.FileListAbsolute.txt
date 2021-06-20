@@ -1,0 +1,3 @@
+C:\Users\Majdev\Desktop\KDU-master\Hamakaze\output\x64\Release\kdu.exe.lastcodeanalysissucceeded
+C:\Users\Majdev\Desktop\KDU-master\Hamakaze\output\x64\Release\NativeCodeAnalysis.read.1.tlog
+C:\Users\Majdev\Desktop\KDU-master\Hamakaze\output\x64\Release\kdu.exe
